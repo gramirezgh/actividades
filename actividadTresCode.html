@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+     <table>
+       <form>
+         <label id="nombre">Nombres : </label><br>
+         <input id="nombre"><br>
+
+         <label id="apellido">Apellidos :</label><br>
+         <input id="apellido"><br>
+
+         <label id="email">Email : </label><br>
+         <input id="email"><br>
+
+         <label id="txtarea">Comentario :</label><br>
+         <textarea name="txtarea">Cometario...</textarea><br>
+
+         <input type="submit"><br>
+       </form>
+     </table>
+
+  </body>
+  <script>
+      var input = document.getElementsByTagName('input');
+      var cantidadUno = input.length;
+      alert("La cantidad de  INPUTS son : "+cantidadUno);
+
+      var label = document.getElementsByTagName('label');
+      var cantidadDos = label.length;
+      alert("La cantidad de LABELS son : "+cantidadDos);
+
+      var txtarea = document.getElementsByTagName('textarea');
+      var cantidadTres = txtarea.length;
+      alert("La cantidad de TEXTAREA son : "+cantidadTres);
+  </script>
+</html>
