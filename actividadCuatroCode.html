@@ -43,34 +43,39 @@
        <br>
        <br>
        <button onclick=subTotales()>Calcular Subtotales</button>
-       <button onclick="">Calcular Total</button>
+       <button onclick=total()>Calcular Total</button>
   </center>
   </body>
   <script>
      function subTotales(){
        var obtenerPrecio = parseInt(document.getElementById('precioUno').value);
        var obtenerCantidad = parseInt(document.getElementById("cantidadUno").value);
-       var obtenerSubTotal = (obtenerPrecio*obtenerCantidad);
-       document.getElementById('subTotalUno').value = obtenerSubTotal;
+       var obtenerSubTotalUno = (obtenerPrecio*obtenerCantidad);
+       document.getElementById('subTotalUno').value = obtenerSubTotalUno;
 
        var obtenerPrecio = parseInt(document.getElementById('precioDos').value);
        var obtenerCantidad = parseInt(document.getElementById("cantidadDos").value);
-       var obtenerSubTotal = (obtenerPrecio*obtenerCantidad);
-       document.getElementById('subTotalDos').value = obtenerSubTotal;
+       var obtenerSubTotalDos = (obtenerPrecio*obtenerCantidad);
+       document.getElementById('subTotalDos').value = obtenerSubTotalDos;
 
        var obtenerPrecio = parseInt(document.getElementById('precioTres').value);
        var obtenerCantidad = parseInt(document.getElementById("cantidadTres").value);
-       var obtenerSubTotal = (obtenerPrecio*obtenerCantidad);
-       document.getElementById('subTotalTres').value = obtenerSubTotal;
+       var obtenerSubTotalTres = (obtenerPrecio*obtenerCantidad);
+       document.getElementById('subTotalTres').value = obtenerSubTotalTres;
 
        var obtenerPrecio = parseInt(document.getElementById('precioCuatro').value);
        var obtenerCantidad = parseInt(document.getElementById("cantidadCuatro").value);
-       var obtenerSubTotal = (obtenerPrecio*obtenerCantidad);
-       document.getElementById('subTotalCuatro').value = obtenerSubTotal;
+       var obtenerSubTotalCuatro = (obtenerPrecio*obtenerCantidad);
+       document.getElementById('subTotalCuatro').value = obtenerSubTotalCuatro;
      }
 
-     function Totales(){
-       
+     function total(){
+       var subTotalUno = parseInt(document.getElementById('subTotalUno').value);
+       var subTotalDos = parseInt(document.getElementById('subTotalDos').value);
+       var subTotalTres = parseInt(document.getElementById('subTotalTres').value);
+       var subTotalCuatro = parseInt(document.getElementById('subTotalCuatro').value);
+       var total = (subTotalUno+subTotalDos+subTotalTres+subTotalCuatro);
+       document.getElementById('TotalCompra').value = total;
      }
   </script>
 </html>
