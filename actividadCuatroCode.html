@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <table border="3" align="center">
+      <tr>
+        <td><input placeholder="Producto"></td>
+        <td><input placeholder="Precio"></td>
+        <td><input placeholder="Cantidad"></td>
+        <td><input placeholder="Subtotal"></td>
+      </tr>
+
+      <tr>
+        <td><input placeholder="Camisa"></td>
+        <td><input id="precioUno" type="text" value="30000" placeholder="30000" disabled></td>
+        <td><input id="cantidadUno" type="text"></td>
+        <td><input id="subTotalUno" type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><input placeholder="Gorra"></td>
+        <td><input id="precioDos" type="text" placeholder="50000" disabled></td>
+        <td><input id="cantidadDos" type="text"></td>
+        <td><input id="subTotalDos" type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><input placeholder="Zapatos"></td>
+        <td><input id="precioTres" type="text" placeholder="80000" disabled></td>
+        <td><input id="cantidadTres" type="text"></td>
+        <td><input id="subTotalTres" type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><input placeholder="Pantalon"></td>
+        <td><input id="precioCuatro" type="text" placeholder="80000" disabled></td>
+        <td><input id="cantidadCuatro" type="text"></td>
+        <td><input id="subTotalCuatro" type="text" disabled></td>
+      </tr>
+    </table>
+
+    <center>
+       <br>
+       <label>Total Compra : </label>
+       <input id="TotalCompra" type="text" placeholder="TotalCompra">
+       <br>
+       <br>
+       <button onclick=subtotalUno()>Calcular Subtotales</button>
+       <button onclick="">Calcular Total</button>
+  </center>
+  </body>
+  <script>
+     function subtotalUno(){
+       var obtenerPrecio = parseInt(document.getElementById('precioUno').value);
+       var obtenerCantidad = parseInt(document.getElementById("cantidadUno").value);
+       var obtenerSubTotal = (obtenerPrecio*obtenerCantidad);
+       document.getElementById('subTotalUno').value = obtenerSubTotal;
+     }
+  </script>
+</html>
