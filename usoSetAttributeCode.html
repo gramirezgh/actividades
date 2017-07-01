@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uso de Set Attribute</title>
+
+    <script>
+       function cambiarAtributo(){
+         var cajatxt = document.getElementById("nombre");
+         cajatxt.setAttribute("size","60");
+       }
+    </script>
+  </head>
+  <body>
+      Nombre :
+      <input type="text" id="nombre" size="20"><br>
+      <input type="text" id="nombre" size="100"><br>
+      <input type="text" id="nombre" size="80"><br>
+      <input type="text" id="nombre" size="60">
+
+
+      <button onclick="cambiarAtributo()">Cambiar tamaño</button>
+  </body>
+</html>

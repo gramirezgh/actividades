@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uso de getelemntsByClassName</title>
+    <script>
+    function cambiarSpans() {
+      var spans = document.getElementsByClassName('miClase');
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].style.fontFamily = "Verdana";
+      }
+    }
+    </script>
+  </head>
+  <body>
+     <span class="miClase">
+       Span Uno !
+     </span>
+
+     <span class="miClase">
+       Span Dos !
+     </span>
+
+     <span class="miClase">
+       Span Tres !
+     </span>
+
+     <span class="miClase">
+       Span Cuatro !
+     </span>
+
+     <button onclick="cambiarSpans()">Cambiar Spans</button>
+  </body>
+</html>
