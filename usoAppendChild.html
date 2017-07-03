@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>uso de appendChild</title>
+    <script type="text/javascript">
+     function crearEncabezado() {
+       var encabezado = document.createElement("h1");
+       var texto = document.createTextNode("encabezado Nuevo");
+       encabezado.appendChild(texto);
+       document.getElementById('miDiv').appendChild(encabezado);
+     }
+    </script>
+  </head>
+  <body>
+     <div id="miDiv">
+        <h1>encabezado Uno</h1>
+        <h1>Encabeado Dos</h1>
+        <h1>Encabezado Tres</h1>
+     </div>
+
+     <button type="button" name="button" onclick="crearEncabezado()">Crear Encabezado</button>
+  </body>
+</html>
