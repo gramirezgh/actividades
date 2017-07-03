@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>uso de Append Child</title>
+    <script>
+      function agregarElemento(){
+        var encabezado = document.createElement("h1");
+        var texto = document.createTextNode("Mi texto 4");
+        encabezado.appendChild(texto);
+        document.getElementById("miDiv").appendChild(encabezado);
+      }
+    </script>
+  </head>
+  <body>
+       <div class="" id="miDiv">
+          <h1>Mi texto 1</h1>
+          <h1>Mi texto 2</h1>
+          <h1>Mi texto 3</h1>
+       </div>
+  <button type="button" name="button" onclick="agregarElemento()">Agregar Elemento</button>     
+  </body>
+</html>
