@@ -5,6 +5,23 @@
     <title>uso de anchors</title>
   </head>
   <body>
+    <a name="google" target="_blank" href="https://www.google.com"></a><br>
+    <a name="youtobe" target="_blank" href="https://www.youtobe.com"></a><br>
+    <a name="facebook" target="_blank" href="https://www.facebook.com"></a><br>
+    <a name="instagram" target="_blank" href="https://www.instagram.com"></a><br>
+    <a href="#"></a>
+    <a href="#"></a>
 
+    <div class="" id="numero">
+
+    </div>
+
+    <button type="button" name="button" onclick="numeroAnclas()">Conteo</button>
   </body>
+
+  <script type="text/javascript">
+    function numeroAnclas(){
+      document.getElementById("numero").innerHTML = "Numero de elementos anclas <a>"+ document.anchors.length;
+    }
+  </script>
 </html>
