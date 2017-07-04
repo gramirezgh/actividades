@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>uso remove child</title>
+    <script>
+       function removerElemento(){
+         var miDiv = document.getElementById("miDiv");
+         miDiv.removeChild(miDiv.childNodes[1]);//Se pasa el metodo removeChild pasandole como argumento el nodo hijo que se va remover
+       }
+    </script>
+  </head>
+  <body>
+      <div class="" id="miDiv">
+         <h1>Mi texto 1</h1>
+         <h1>Mi texto 2</h1>
+         <h1>Mi texto 3</h1>
+      </div>
+      <button type="button" name="button" onclick="removerElemento()">Remover Elemento</button>
+  </body>
+</html>

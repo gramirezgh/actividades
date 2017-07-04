@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>uso Document URL</title>
+    <script type="text/javascript">
+      function urlDocumento() {
+        var p = document.getElementById("p1");
+        p.innerHTML="URL DEL DOCUMENTO"+document.URL;
+      }
+    </script>
+  </head>
+  <body>
+    <p id="p1"></p>
+    <button type="button" name="button" onclick="urlDocumento()">Cambiar Parrafo</button>
+  </body>
+</html>
