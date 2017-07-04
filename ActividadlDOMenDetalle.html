@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>actividad DOM en detalle</title>
+    <script type="text/javascript">
+      function registrarAlumno() {
+        alert("El alumno fue registrado");
+      }
+
+      function cambiarTitulo() {
+        var h1 = document.getElementById("h1").innerHTML = "Registro de Docentes";
+      }
+
+   /// Otra forma de desplegar el mensaje el Alumno ah sido registrado
+    // function crearElemento() {
+    //
+    //     var encabezado = document.createElement("h4");
+    //     var texto = document.createTextNode("Alumno Registrado");
+    //     encabezado.appendChild(texto);
+    //     document.body.appendChild(encabezado);
+    //
+    // }
+
+    // Permite cambiar el color de todas las etiquetas label
+    function cambiarColor() {
+
+        var divs = document.getElementsByTagName("label");
+        var input = document.getElementsByTagName("input");
+        for (var i = 0; i < divs.length; i++) {
+            divs[i].style.color = "green";
+        }
+
+        for (var j = 0; j < input.length; i++) {
+            input[i].style.color = "green";
+        }
+    }
+    </script>
+  </head>
+  <body>
+    <h1 id="h1">Registro de Estudiantes</h1>
+     <form>
+       <label for="nombres">Nombres : </label>
+       <input type="text" name="nombres" value=""><br>
+       <label for="apellidos">Apellidos : </label>
+       <input type="text" name="apellidos" value=""><br>
+       <label for="direccion">Dirección : </label>
+       <input type="text" name="direccion" value=""><br>
+       <label for="edad">Edad : </label>
+       <input type="text" name="edad" value=""><br>
+       <label for="fecha">Fecha de Nacimiento: </label>
+       <input type="date" name="fecha" value=""><br>
+       <label for="lugarNac">Lugar de Nacimiento : </label>
+       <input type="text" name="lugarNac" value=""><br>
+       <label for="eCivl">Estado Civil : </label>
+       <input type="text" name="eCivil" value="">
+     </form>
+     <button type="button" name="button" onclick="registrarAlumno()">Regitrar Alumno</button>
+     <button type="button" name="button" onclick="cambiarColor()">Cambiar Color</button>
+     <button type="button" name="button"onclick="cambiarTitulo()">Cambiar Titulo</button>
+     <button type="button" name="button" onclick=""></button>
+  </body>
+</html>
