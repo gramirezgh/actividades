@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>actividad Tres</title>
+  </head>
+  <body>
+     <table border="1">
+       <tr id="fila1">
+         <td>Jugadores</td>
+         <td>Goles</td>
+       </tr>
+       <tr id="filaJG" class="filaJG">
+         <td>James Rodriguez</td>
+         <td>6</td>
+       </tr>
+       <tr id="filaJG" class="filaJG">
+         <td>Thomas Mueller</td>
+         <td>5</td>
+       </tr>
+       <tr id="filaJG" class="filaJG">
+         <td>Neymar</td>
+         <td>4</td>
+       </tr>
+       <tr id="filaJG" class="filaJG">
+         <td>Lionel Messi</td>
+         <td>4</td>
+       </tr>
+     </table>
+
+     <button onclick="cambiarTabla()">Cambiar</button>
+  </body>
+  <script type="text/javascript">
+     function cambiarTabla() {
+       document.getElementById('fila1').style.backgroundColor = "red";
+       var jugador = document.getElementsByClassName('filaJG');
+       for (var i = 0; i < jugador.length; i++) {
+        //  document.getElementById('filaJG').style.backgroundColor = "yellow";
+        //  document.getElementById('filaJG').style.fontStyle = "italic";
+        //  document.getElementById('filaJG').style.fontWeight = "bold";
+
+         jugador[i].style.backgroundColor = "yellow";
+         jugador[i].style.fontStyle = "italic";
+         jugador[i].style.fontWeight = "bold";
+       }
+
+     }
+  </script>
+</html>
