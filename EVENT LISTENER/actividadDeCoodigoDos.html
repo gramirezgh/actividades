@@ -5,13 +5,17 @@
     <title>actividad Dos</title>
   </head>
   <body>
-    <input id="miInput" type="text" name="" value="">
+    <div class="" id="miDiv">
+         Mi Div!!!
+    </div>
   </body>
   <script type="text/javascript">
-    function cambiar1 (arguments) {
-      document.getElementById("miInput").style.width = "150px";
-      document.getElementById("miInput").style.height = "50px";
-    }
-    o  O
+      document.getElementById("miDiv").addEventListener("click",cambiarDiv);
+      function cambiarDiv(arguments){
+          document.getElementById("miDiv").style.width = "400px";
+          document.getElementById("miDiv").style.height = "400px";
+          document.getElementById("miDiv").style.backgroundColor = "green";
+          document.getElementById("miDiv").style.fontSize = "xx-large";
+      }
   </script>
 </html>

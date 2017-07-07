@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>actividad Tres</title>
+  </head>
+  <body>
+    <input id="miInput">
+  </body>
+
+  <script type="text/javascript">
+    var elemento = document.getElementById("miInput");
+    elemento.addEventListener("click",cambiar1);
+    elemento.addEventListener("blur",cambiar2);
+    function cambiar1(arguments) {
+      document.getElementById("miInput").style.width = "150px";
+      document.getElementById("miInput").style.height = "50px";
+    }
+
+    function cambiar2(arguments) {
+      document.getElementById("miInput").style.color = "orange";
+      document.getElementById("miInput").style.backgroundColor = "blue";
+    }
+
+  </script>
+
+
+</html>
