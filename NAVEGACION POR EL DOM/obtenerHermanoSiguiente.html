@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hermano siguiente</title>
+    <script type="text/javascript">
+       function nodoHermanoSiguiente() {
+         var texto = "";
+
+         var parrafo = document.getElementById("p1");
+
+         var mensaje = document.getElementById("mensaje");
+
+         mensaje.innerHTML = "siguiente nodo hermano de el elemnto parrafo es :  "+parrafo.nextSibling.nodeName;
+
+       }
+    </script>
+  </head>
+  <body>
+        <div id="miDiv">
+            <h1>Encabezado 1</h1>
+            <p>Parrafo 1</p>
+            <input type="text" name="" value="">
+        </div>
+        <br>
+        <button onclick="nodoHermanoSiguiente()" type="button" name="button">click</button>
+
+        <p id="mensaje"></p>
+  </body>
+</html>

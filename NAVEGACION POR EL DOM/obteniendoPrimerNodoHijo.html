@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Primer Nodo Hijo</title>
+
+    <script>
+       function nodoPrimero() {
+         var texto="";
+         var div = document.getElementById("miDiv");
+         var mensaje = document.getElementById("mensaje");
+         mensaje.innerHTML = "Primer nodo del div: "+div.firstChild.nodeName;
+       }
+    </script>
+  </head>
+  <body>
+      <div id="miDiv">
+          <h1>Encabezado</h1>
+          <p>Parrafo 1</p>
+          <p>Parrafo 2</p>
+      </div>
+      <button onclick="nodoPrimero()" type="button" name="button">presionar</button>
+      <p id="mensaje"></p>
+  </body>
+</html>

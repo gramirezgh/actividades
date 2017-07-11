@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>operando nodos hijos</title>
+  </head>
+  <body>
+      <div class="">
+        <p name="nombre1">1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p></p>
+      </div>
+
+      <button onclick="nodosHijos()" type="button" name="button">boton</button>
+         <p id="mensaje"></p>
+  </body>
+  <script type="text/javascript">
+     function nodosHijos() {
+       var texto="";
+       var div = document.getElementsByTagName("div")[0];
+       for (var i = 0; i < div.childNodes.length; i++) {
+         texto+=div.childNodes[i].nodeName+"<br>";
+       }
+        document.getElementById("mensaje").innerHTML = texto;
+;     }
+  </script>
+</html>
