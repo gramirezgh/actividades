@@ -8,16 +8,39 @@
      <h1 id="texto1">Primer Texto</h1>
      <p id="texto2">Segundo Texto</p>
 
-     <h1>Elementos</h1>
-     <p>Nombre</p>
-     <input type="text" name="" value="">
-     <div class="">
-       <button type="button" name="button">Aceptar</button>
-     </div>
+     <div class="" id="miDiv"><h1>Elementos</h1><p>Nombre</p><input type="text" name="" value=""><button type="button" name="button">Aceptar</button></div>
+     <br>
+     <button onclick="nodosHijos()">Ver Tipo de Elementos</button>
+     <button onclick="obtenerPrimerHijo()">Primer elemento</button>
+     <button onclick="obtenerUltimoHijo()">Ultimo Elemento</button>
+
+     <p id="mensaje"></p>
   </body>
 
   <script type="text/javascript">
         var cambiartexto = document.getElementById("texto1").childNodes[0].nodeValue;
         document.getElementById("texto2").innerHTML = cambiartexto;
+
+        function nodosHijos() {
+        var texto="";
+        var div = document.getElementsByTagName("div")[0];
+    		for (var i = 0; i < div.childNodes.length; i++) {
+                texto+=div.childNodes[i].nodeName+"<br>";
+            }
+             document.getElementById("mensaje").innerHTML = texto;
+        }
+
+
+         function obtenerPrimerHijo() {
+           var div = document.getElementById("miDiv");
+           var mensaje = document.getElementById("mensaje");
+           mensaje.innerHTML = "El primer elemento hijo de el DIV es : "+div.firstChild.nodeName;
+         }
+
+         function obtenerUltimoHijo() {
+           var div = document.getElementById("miDiv");
+           var mensaje = document.getElementById("mensaje");
+           mensaje.innerHTML = "El Ultimo elemnto del DIV es :  "+div.lastChild.nodeName;
+          }
   </script>
 </html>
