@@ -5,10 +5,24 @@
     <title>actividad cuatro</title>
   </head>
   <body>
-    <button id=""></button>
+    <h1 id="enca1">
+      Encabezado !!!
+    </h1>
+    <button id="boton1">boton</button>
   </body>
 
   <script type="text/javascript">
+     var elemento = document.getElementById("enca1");
+     elemento.addEventListener("click",mostrarMensaje1);
+     elemento.addEventListener("mouseout",mostrarMensaje2);
+    //  document.getElementById("enca1").addEventListener("click",mostrarMensaje1);
+     function mostrarMensaje1(arguments) {
+        document.getElementById("enca1").innerHTML = "Se realizo un evento click!!!";
+     }
 
+    //  document .getElementById("boton1").addEventListener("mouseout",mostrarMensaje2);
+     function mostrarMensaje2(arguments) {
+        document.getElementById("enca1").innerHTML = "Se realizo un evento mouseout";
+     }
   </script>
 </html>

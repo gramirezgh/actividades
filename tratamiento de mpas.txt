@@ -1,0 +1,18 @@
+D3.js
+
+añadir colores a los mapas e infirmaacion
+http://elections.huffingtonpost.com/2013/massachusetts-senate-results
+
+seleccion de area determinada en el mapa
+https://bl.ocks.org/mbostock/4343214
+
+acercamiento de mapa
+https://bl.ocks.org/mbostock/2374239
+
+muestreo estadistico
+http://bl.ocks.org/NPashaP/9994181
+
+dinamicidad en mapas
+https://live2.zoomdata.com/zoomdata/visualization/57d17748e4b05c6070805d78+58f008cfe4b08525c1801709
+
+
