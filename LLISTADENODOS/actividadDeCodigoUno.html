@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de Codigo Uno</title>
+  </head>
+  <body>
+    <!-- Crear un documento HTML que contenga 4 etiquetas párrafos <p>
+      con su respectivo texto “Mi párrafo 1”, ”Mi párrafo 2”, “Mi párrafo 3”,
+       y “Mi párrafo 4“.
+    Crear un botón que tenga como acción cambiar el color de texto de los párrafos a naranja. -->
+
+    <p>Mi Parrafo 1</p>
+    <p>Mi Parrafo 2</p>
+    <p>Mi Parrafo 3</p>
+    <p>Mi Parrafo 4</p>
+
+    <button onclick="cambiarColor()" type="button" name="button">CLICK</button>
+  </body>
+
+  <script type="text/javascript">
+     function cambiarColor() {
+       var parrafo = document.getElementsByTagName("p");
+       for (var i = 0; i < parrafo.length; i++) {
+         parrafo[i].style.color = "orange";
+       }
+     }
+  </script>
+</html>

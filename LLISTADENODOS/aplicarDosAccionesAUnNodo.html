@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aplicar dos acciones a un nodo</title>
+  </head>
+  <body>
+     <div>Mi div Uno</div>
+     <div>Mi div Dos</div>
+     <div>Mi div Tres</div>
+     <div>Mi div Cuatro</div>
+     <button onclick="cambiarDualmente()">Cambiar DIV</button>
+  </body>
+
+  <script type="text/javascript">
+    function cambiarDualmente() {
+      document.getElementsByTagName("div")[0].style.backgroundColor = "yellow";
+      document.getElementsByTagName("div")[0].innerHTML = "Texto modificado !!!!";
+    }
+  </script>
+</html>

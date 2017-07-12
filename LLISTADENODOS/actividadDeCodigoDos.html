@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de Codigo Dos</title>
+  </head>
+  <body>
+    <!-- Crear un documento HTML que contenga 4 etiquetas párrafos <p> con su respectivo texto
+       “Mi párrafo 1”, ”Mi párrafo 2”, “Mi párrafo 3”, y “Mi párrafo 4“.
+       Crear un botón que tenga como acción cambiar el color de texto
+       a naranja del primer párrafo
+       y del último párrafo a rojo.
+      Además modificar el texto del párrafo tres a “Párrafo modificado!!”.
+     -->
+    <p>Mi parrafo 1</p>
+    <p>Mi parrafo 2</p>
+    <p>Mi parrafo 3</p>
+    <p>Mi parrafo 4</p>
+
+    <button onclick="cambiarPyT()">Cambiar Parrafo y Texto</button>
+  </body>
+
+  <script type="text/javascript">
+     function cambiarPyT() {
+       document.getElementsByTagName("p")[0].style.color = "orange";
+       document.getElementsByTagName("p")[3].style.color = "red";
+
+       document.getElementsByTagName("p")[2].innerHTML = "Parrafo Modificado!!!";
+     }
+  </script>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Elmininacion de un nodo Padre</title>
+  </head>
+  <body>
+     <p id="parrafo">
+       <a id="e1" href="#">Primer Enlace</a>
+       <br>
+       <a id="e2" href="#">Segundo Enlace</a>
+     </p>
+  </body>
+
+   <script type="text/javascript">
+      var nodo_hijo = document.getElementById('e1');
+      nodo_hijo.parentNode.removeChild(nodo_hijo);
+   </script>
+</html>

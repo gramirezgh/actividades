@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de Codigo Dos</title>
+  </head>
+  <body id="padre">
+       <p id="elemento1">Parrafo Uno</p>
+       <p id="elemnto2">Parrafo Dos</p>
+       <a id="elemento3" href="#">Enlace Uno</a>
+  </body>
+
+  <script type="text/javascript">
+       var nodo_padre = document.getElementById("padre");
+       var nodo_hijo = document.getElementById("elemnto2");
+       nodo_padre.removeChild(nodo_hijo);
+
+       var nodo_padre = document.getElementById("padre");
+       var nodo_hijo = document.getElementById("elemento3");
+       nodo_padre.removeChild(nodo_hijo);
+  </script>
+
+</html>
+
+<!-- Desarrollar un documento HTML que contenga tres elementos,
+ dos párrafos y un enlace. Luego, mediante el método removeChild(),
+  eliminar dos de esos elementos, un párrafo y el enlace.
+El documento solo contendrá un párrafo al final del ejercicio. -->
