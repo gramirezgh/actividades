@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de Codigo Dos</title>
+  </head>
+  <body onload="sumar()">
+    <h1>Suma de Números</h1>
+    <input type="text" name="" value="valor uno">
+    <input type="text" name="" value="valor dos">
+    <p id="resultado">Resultado</p>
+    <button onclick="sumar()">Sumar</button>
+  </body>
+  <script type="text/javascript">
+    function sumar() {
+      if (confirm("Desea sumar numeros")==true) {
+         var a = prompt("digite primer numero");
+         var b = prompt("digite segundo numero");
+         var s = a+b;
+         alert("La suma es :  "+s);
+      }
+    }
+  </script>
+
+</html>
+
+Crear un archivo HTML que contenga y realice lo siguiente:
+
+Debe tener una etiqueta h1 como título que diga “Suma de Números”,
+un pequeño formulario con dos input de texto, y un botón que tenga como valor sumar.
+
+Este botón debe permitir sumar dos números que digite el usuario y mostrar el resultado a través de una alerta.
+
+Además, cuando se cargue la página se debe mostrar un mensaje con
+un cuadro de diálogo preguntando si “Desea sumar números?”.
+Si se hace clic en la opción Aceptar debe mostrar un cuadro prompt donde
+pide digitar un número y luego el segundo número.
+
+Cuando se digiten los números en el cuadro prompt se debe mostrar
+un mensaje en una etiqueta p al final del formulario con el resultado de la suma de los números.

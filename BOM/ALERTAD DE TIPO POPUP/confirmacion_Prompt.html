@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>confirmacion y prompt</title>
+  </head>
+  <body onload="confirmar()">
+     <p id="datos"></p>
+  </body>
+
+  <script type="text/javascript">
+    function confirmar() {
+      if (confirm("Desea aceptar el cuestionario??")==true) {
+        preguntas();
+      }else{
+        window.close();
+      }
+    }
+
+    function preguntas() {
+      var nombre = prompt("Cual es su nombre");
+      var apellidos = prompt("Introduzca sus apellidos");
+      var ciudad = prompt("Introduzca su ciudad");
+      var estadoCivil = prompt("Introduzca su estado civil");
+      var profesion = prompt("Inserte su profesion");
+
+      document.getElementById('datos').innerHTML = "Su nombre es : "+nombre+
+                                                    "  su apellido es  "+apellidos+
+                                                    "  su ciudad es  "+ciudad+
+                                                    "  estado civil es  "+estadoCivil+
+                                                    "  su profesion es  "+profesion;
+    }
+  </script>
+</html>
