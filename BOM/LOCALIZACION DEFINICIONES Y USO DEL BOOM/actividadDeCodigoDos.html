@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>actividad de codigo Dos</title>
+  </head>
+
+  <!-- Haciendo uso de la propiedad “href”, desarrollar un documento HTML
+   que al presionar un párrafo se ejecute una función JavaScript,
+   retornando la URL actual de la página. -->
+
+  <body>
+    <p onclick="urlActual()">click</p>
+  </body>
+
+  <script type="text/javascript">
+    function urlActual() {
+      var propiedad = location.href;
+      alert("la ubicacion es : "+propiedad);
+    }
+  </script>
+</html>

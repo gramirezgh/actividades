@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de Codigo Uno</title>
+  </head>
+
+  <!-- Crear un HTML con un botón que contenga un texto “Abrir Ventana”.
+  Cuando se haga clic sobre el botón se abrirá una ventana en blanco sin URL,
+  con un ancho de 400px y un alto de 200px. -->
+  <body>
+     <button onclick="abrirVentana()">Abrir Ventana</button>
+  </body>
+
+  <script type="text/javascript">
+      var ventana;
+     function abrirVentana() {
+       ventana = window.open("","_blank","width=400,height=200");
+     }
+  </script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>generacion de Dos ventanas window screen</title>
+  </head>
+  <body>
+      <button onclick="abrirVentana1()" type="button" name="button">Abrir Ventana Uno</button>
+      <button onclick="abrirVentana2()" type="button" name="button">Abrir Ventana Dos</button>
+  </body>
+
+  <script type="text/javascript">
+     var ventana1;
+     var ventana2;
+
+     function abrirVentana1() {
+       ventana1 = window.open("","_blank","width=500, height=400");
+       ventana1.focus();
+     }
+
+     function abrirVentana2() {
+       ventana2 = window.open("","_blank","width=500, height=400");
+       var html = "";
+       html+="<h1>Mi ventana 2</h1>"
+       html+="<p>Contenido reemplazado en la ventana Dos</p>"
+       ventana2.document.write(html);
+     }
+  </script>
+</html>

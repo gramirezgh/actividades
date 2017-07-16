@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uso combinado de confirmacion y Prompt</title>
+  </head>
+  <body onload="confirmar()">
+     <p id="mensaje"></p>
+  </body>
+
+  <script type="text/javascript">
+     function confirmar() {
+       if (confirm("Permite Realizar una serie de preguntas?")==true)
+       {
+        preguntas()
+       }
+     }
+
+     function preguntas(){
+       var nombre = prompt("Cual es su nombre");
+       var apellidos = prompt("Cuales son sus apellidos");
+       var edad = prompt("Cual es su edad");
+       var ciudad = prompt("en que ciudad vive usted");
+       var residencia = prompt("Donde reside usted");
+       var estado = prompt("Estado Civil");
+       var profesion = prompt("cual es su profesion");
+       var universidad = prompt("En que universidad termino");
+
+      if (nombre!=null) {
+        document.getElementById('mensaje').innerHTML =
+        "usted se llama "+nombre+""+apellidos+" tiene "+edad+" vive en "+ciudad+" en la residencia "+
+        residencia+" su estado es"+estado+" su profesion es "+profesion+" y estudio en "+universidad
+      }
+     }
+  </script>
+</html>

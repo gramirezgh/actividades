@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de codigo Cuatro</title>
+  </head>
+  <body>
+     <button onclick="infoPantalla">Informacion de pantalla</button>
+  </body>
+
+  <p id="infoPantalla"></p>
+
+  <script type="text/javascript">
+  var info = "";
+  info+= "INFORMACION DE PANTALLAS <br>";
+  info+= "ALTO PERMITIDO"+screen.availHeight+"<br>";
+  info+= "ANCHO PERMITIDO"+screen.availWidth+"<br>";
+  info+= "ALTURA TOTAL"+screen.height+"<br>";
+  info+= "ANCHO TOTAL"+screen.width+"<br>";
+  info+= "NUMERO BITS DE COLORES"+screen.colorDepth+"<br>";
+
+  document.getElementById('infoPantalla').innerHTML = info;
+
+  </script>
+</html>
+
+Crear un HTML con un botón con texto “Info Pantalla”.
+La idea es que cuando se haga clic sobre el botón Info Pantalla,
+se muestre en el HTML el valor de las siguientes propiedades del objeto screen:
+
+availHeight
+availWidth
+height
+width
+colorDepth
