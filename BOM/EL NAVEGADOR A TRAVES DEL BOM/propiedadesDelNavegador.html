@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>propiedades de el navegador</title>
+  </head>
+  <body onload="navegador()">
+     <h2>Navegador del BOM</h2>
+     <p id="mensaje"></p>
+  </body>
+
+  <script type="text/javascript">
+    function navegador() {
+      document.getElementById("mensaje").innerHTML =
+      "Nombre: "+navigator.appName+"<br>"+
+      "Version: "+navigator.appVersion+"<br>"+
+      "Lenguaje: "+navigator.languaje+"<br>"+
+      "Navegador esta en linea: "+navigator.onLine+"<br>"+
+      "Java esta habilitado: "+navigator.javaEnabled();
+    }
+  </script>
+</html>

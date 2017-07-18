@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de Codigo Uno</title>
+  </head>
+
+  <!-- Crear una página HTML que cuando se cargue la página muestre una etiqueta h1 con el
+   mensaje “Información del Navegador” y una etiqueta p con id="mensaje".
+
+  Crear un script con una función que se llame navegador y tenga el
+  comando de JavaScript para mostrar información referente al navegador
+  con las siguientes propiedades:
+
+  appName
+
+  appCodeName
+
+  appVersion
+
+  language
+
+  platform
+
+  product
+
+  onLine
+
+  javaEnabled()
+
+  userAgent
+
+  cookieEnabled
+
+  El valor de estos atributos se debe mostrar en la etiqueta párrafo precedido
+  de lo que significa, por ejemplo:
+
+  Nombre: Netscape -->
+
+  <body onload="navegador()">
+     <h1>Informacion de el navegador</h1>
+     <p id="mensaje"></p>
+  </body>
+
+  <script type="text/javascript">
+    function navegador() {
+      var mensaje="";
+      mensaje+="appName : "+navigator.appName+"<br>";
+      mensaje+="appCodeName : "+navigator.appCodeName+"<br>";
+      mensaje+="appVersion : "+navigator.appVersion+"<br";
+      mensaje+="languaje : "+navigator.languaje+"<br>";
+      mensaje+="platform : "+navigator.platform+"<br>";
+      mensaje+="product : "+navigator.product+"<br>";
+      mensaje+="onLine : "+navigator.onLine+"<br>";
+      mensaje+="Java : "+navigator.javaEnabled()+"<br>";
+      mensaje+="userAgent : "+navigator.userAgent+"<br>";
+      mensaje+="cookieEnabled : "+navigator.cookieEnabled+"<br>";
+
+      document.getElementById('mensaje').innerHTML = mensaje;
+    }
+
+  </script>
+</html>
