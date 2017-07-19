@@ -4,7 +4,48 @@
     <meta charset="utf-8">
     <title>Actividad de Codigo Dos</title>
   </head>
+  <!-- Crear una página HTML en donde se defina un botón con 
+  texto “Mostrar Tipos MIME”. Al hacer clic sobre el,
+  mostrar en pantalla los tipos MIME que soporta el navegador,
+   pero solo los tipos MIME que sean los siguientes tipos:
+
+  application/x-shockwave-flash
+  application/java-deployment-toolkit
+  application/pdf -->
+
   <body>
-     <button onclick="propiedadesMIME">Propiedades MIME</button>
+     <h1>Propiedades MIME</h1>
+     <p id="mensaje"></p>
+     <button onclick="propiedadesMIME()">Propiedades MIME</button>
   </body>
+  <script type="text/javascript">
+    function propiedadesMIME() {
+      for (var i = 0; i < navigator.mimeTypes.length; i++) {
+        var mensaje = "";
+        mensaje+="El tipo de mimes es : "+navigator.mimeTypes[i].type+"<br>";
+                switch (mensaje) {
+
+              case "application/x-shockwave-flash":
+
+                 mensaje+="-"+navigator.mimeTypes[i].type+"<br>";
+
+                  break;
+
+              case "application/java-deployment-toolkit":
+
+                 mensaje+="-"+navigator.mimeTypes[i].type+"<br>";
+
+                  break;
+
+              case "application/pdf":
+
+                 mensaje+="-"+navigator.mimeTypes[i].type+"<br>";
+
+                  break;
+
+          }
+      }
+      document.getElementById("mensaje").innerHTML = mensaje;
+    }
+  </script>
 </html>

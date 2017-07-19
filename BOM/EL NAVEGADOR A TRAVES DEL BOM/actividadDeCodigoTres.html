@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad de Codigo Tres</title>
+  </head>
+  Crear una página HTML en donde se defina un botón
+  con el texto “Mostrar Plugins”. Al hacer clic sobre el, mostrar los plugins del   navegador en pantalla.
+  <body>
+    <p id="pluginsTipo"></p>
+    <button onclick="mostrarPlugins()">Mostrar plugins</button>
+  </body>
+  <script type="text/javascript">
+     var tipoPlugin = "";
+     function mostrarPlugins() {
+       for (var i = 0; i < navigator.plugins.length; i++) {
+         tipoPlugin+=navigator.plugins[i].name+"<br>";
+       }
+     document.getElementById("pluginsTipo").innerHTML = tipoPlugin;
+     }
+  </script>
+</html>
