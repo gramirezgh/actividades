@@ -7,15 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pagina Uno</title>
 </head>
+<!--Crear una función en JavaScript que nos-->
+<!--permita ir dos páginas adelante del historial de navegación.-->
 <body>
-<input type="button" value="Avanzar Dos" onclick="adelanteDos()" >
+<input type="button" value="Avanzar Dos" onclick="adelanteDos()"><br>
+<a href="paginaDos.html">Ir a pagina Dos</a>
+<br>
+<a href="paginaTres.html">Ir a pagina Tres</a>
 </body>
 <script type="text/javascript">
     function adelanteDos() {
+        //PARA PODER IR ATRAS DOS PAGINAS SE REALIZA LO SIGUIENTE window.history.go(-2)
         window.history.go(2);
     }
 </script>
 </html>
 
-Crear una función en JavaScript que nos
-permita ir dos páginas adelante del historial de navegación.
