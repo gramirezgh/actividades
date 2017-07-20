@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primera Pagina</title>
+</head>
+<body>
+   <h3>Pagina Inicial</h3>
+   <br>
+   <a href="segunda_pagina.html">Ir a la segunda pagina</a>
+   <br>
+   <br>
+   <input type="button" value="adelante" onclick="adelante()">
+   <br>
+   <br>
+   <a href="tercera_pagina.html">Ir a la tercera pagina</a>
+   <br>
+   <br>
+   <input type="button" value="Avanzar" onclick="avanzar()">
+</body>
+<script type="text/javascript">
+    function adelante() {
+        window.history.forward();
+    }
+    function avanzar() {
+        window.history.go(2);
+    }
+</script>
+</html>
