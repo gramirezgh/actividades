@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3e4c32aa-3859-4d40-ba23-f40f98c5fec6" name="Default" comment="">
+=======
+    <list default="true" id="3e4c32aa-3859-4d40-ba23-f40f98c5fec6" name="Default" comment="eventos de tiempo parte 1">
+<<<<<<< HEAD
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/actividadDeCodigoUno.html" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +26,14 @@
     <favorites_list name="actividadesDOM" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
+<<<<<<< HEAD
+    <leaf />
+=======
+    <leaf>
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
       <file leaf-file-name="eventosDeTiempoUsandoBOM.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/EVENTOS DE TIEMPO 2/eventosDeTiempoUsandoBOM.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,6 +65,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,6 +132,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -139,7 +159,14 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,9 +228,18 @@
       <workItem from="1500498169677" duration="6416000" />
       <workItem from="1500557412147" duration="73000" />
       <workItem from="1500557532298" duration="8000" />
+<<<<<<< HEAD
+      <workItem from="1500561838012" duration="8247000" />
+      <workItem from="1500613879543" duration="51000" />
+=======
       <workItem from="1500561838012" duration="7652000" />
+<<<<<<< HEAD
       <workItem from="1500593160561" duration="5304000" />
       <workItem from="1500653161006" duration="534000" />
+=======
+      <workItem from="1500593160561" duration="5226000" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
     </task>
     <task id="LOCAL-00001" summary="añadiendo valor a nuestros desarrollos 1">
       <created>1500446541675</created>
@@ -230,7 +266,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="27020000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="21828000" />
+=======
+    <option name="totallyTimeSpent" value="26408000" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,6 +296,14 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2344983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44690967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44690967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -568,6 +620,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+<<<<<<< HEAD
+=======
         </state>
       </provider>
     </entry>
@@ -575,21 +629,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/EVENTOS DE TIEMPO 2/eventosDeTiempoUsandoBOM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
+<<<<<<< HEAD
           <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding />
+=======
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/eventosDeTiempoTres.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="864">
           <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="420">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+=======
+        <state relative-caret-position="367">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+>>>>>>> e20316ad42cd64eed3556cd9d56fc0d596ffeb09
           <folding />
         </state>
       </provider>
@@ -599,6 +667,7 @@
         <state relative-caret-position="108">
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
         </state>
       </provider>
     </entry>
