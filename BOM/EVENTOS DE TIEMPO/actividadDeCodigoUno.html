@@ -7,6 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Actividad de Codigo Uno</title>
 </head>
+
+<!---->Crear un documento HTML que contenga una etiqueta párrafo <p> con  un id “numero”.-->
+    <!--Este elemento párrafo mostrará el incremento en 10 de  una variable de tipo numérica-->
+    <!--que se inicializará en cero cada 2 segundos. Esta acción la ejecutará un botón que tenga-->
+    <!--como texto “Iniciar Conteo”. Cuando el conteo llegue a 150, se detendrá el conteo  y mostrará-->
+    <!--un mensaje “Conteo terminado!!” -->
+
 <body>
     <p id="numero">
         0
@@ -15,21 +22,25 @@
     <button onclick="detenerConteo()">Detener Conteo</button>
 </body>
 <script type="text/javascript">
-    var numero=0;
+    var numero = 0;
     var funcionConteo;
-    function iniciarConteo() {
-            setTimeout(function () {
-                numero= numero+10;
-            },2000);
-       if(numero=150){
-           clearInterval(funcionConteo);
-           alert("Conteo Terminado");
-       }
-       document.getElementById("numero"),innerHTML=numero;
-       funcionConteo = setTimeout(iniciarConteo,2000);
-    }
+     function iniciarConteo() {
+
+         funcionConteo = setInterval(function () {
+             numero = numero+10;
+             document.getElementById("numero").innerHTML =numero;
+             if(numero==150){
+                 clearInterval(funcionConteo);
+                alert("Conteo Terminado");
+             }
+         },2000);
+
+
+     }
+
 </script>
 </html>
+
 
 <!--<script>-->
     <!--var inval;-->
@@ -50,8 +61,3 @@
 
 
 
-Crear un documento HTML que contenga una etiqueta párrafo <p> con  un id “numero”.
-    Este elemento párrafo mostrará el incremento en 10 de  una variable de tipo numérica
-    que se inicializará en cero cada 2 segundos. Esta acción la ejecutará un botón que tenga
-    como texto “Iniciar Conteo”. Cuando el conteo llegue a 150, se detendrá el conteo  y mostrará
-    un mensaje “Conteo terminado!!”
