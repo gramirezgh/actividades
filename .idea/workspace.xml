@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e4c32aa-3859-4d40-ba23-f40f98c5fec6" name="Default" comment="eventos de tiempo parte 1">
+<<<<<<< HEAD
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/actividadDeCodigoUno.html" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +22,42 @@
     <favorites_list name="actividadesDOM" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
+=======
+    <leaf>
+      <file leaf-file-name="eventosDeTiempoUsandoBOM.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/EVENTOS DE TIEMPO 2/eventosDeTiempoUsandoBOM.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventosDeTiempoTres.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/eventosDeTiempoTres.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actividadDeCodigoUno.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/actividadDeCodigoUno.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +80,8 @@
         <option value="$PROJECT_DIR$/BOM/AÑADIENDO VALOR A NUESTROS DESARROLLOS/ACTIVIDAD DE CODIGO UNO DOS TRES CUATRO/paginaUno.html" />
         <option value="$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/eventosDeTiempo.html" />
         <option value="$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/eventosDeTiempoUsandoBOM.html" />
+        <option value="$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/eventosDeTiempoTres.html" />
+        <option value="$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/actividadDeCodigoUno.html" />
       </list>
     </option>
   </component>
@@ -89,17 +130,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="actividadesDOM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="actividadesDOM" type="462c0819:PsiDirectoryNode" />
+              <item name="actividades" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actividades" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="actividadesDOM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="actividadesDOM" type="462c0819:PsiDirectoryNode" />
+              <item name="actividades" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actividades" type="462c0819:PsiDirectoryNode" />
               <item name="BOM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="actividadesDOM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="actividadesDOM" type="462c0819:PsiDirectoryNode" />
+              <item name="actividades" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actividades" type="462c0819:PsiDirectoryNode" />
               <item name="BOM" type="462c0819:PsiDirectoryNode" />
               <item name="EVENTOS DE TIEMPO" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -107,6 +148,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,17 +181,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.eventosDeTiempoTres.html">
     <configuration name="actividadDeCodigoDos.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/actividadesDOM/BOM/EL NAVEGADOR A TRAVES DEL BOM/actividadDeCodigoDos.html" />
+    <configuration name="eventosDeTiempoTres.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/actividades/BOM/EVENTOS DE TIEMPO/eventosDeTiempoTres.html" />
     <configuration name="primera_pagina.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/actividadesDOM/BOM/AÑADIENDO VALOR A NUESTROS DESARROLLOS/objetoHistory/primera_pagina.html" />
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.actividadDeCodigoDos.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.primera_pagina.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.eventosDeTiempoTres.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.primera_pagina.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.actividadDeCodigoDos.html" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.eventosDeTiempoTres.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.primera_pagina.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.actividadDeCodigoDos.html" />
       </list>
     </recent_temporary>
   </component>
@@ -165,8 +214,13 @@
       <workItem from="1500498169677" duration="6416000" />
       <workItem from="1500557412147" duration="73000" />
       <workItem from="1500557532298" duration="8000" />
+<<<<<<< HEAD
       <workItem from="1500561838012" duration="8247000" />
       <workItem from="1500613879543" duration="51000" />
+=======
+      <workItem from="1500561838012" duration="7652000" />
+      <workItem from="1500593160561" duration="5226000" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
     </task>
     <task id="LOCAL-00001" summary="añadiendo valor a nuestros desarrollos 1">
       <created>1500446541675</created>
@@ -175,11 +229,22 @@
       <option name="project" value="LOCAL" />
       <updated>1500446541676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="eventos de tiempo parte 3">
+      <created>1500596185839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500596185839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="21828000" />
+=======
+    <option name="totallyTimeSpent" value="26408000" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,16 +256,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21156661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2344983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44690967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -237,7 +307,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadiendo valor a nuestros desarrollos 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadiendo valor a nuestros desarrollos 1" />
+    <MESSAGE value="eventos de tiempo parte 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="eventos de tiempo parte 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -490,13 +561,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/EVENTOS DE TIEMPO 2/eventosDeTiempoUsandoBOM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+<<<<<<< HEAD
+=======
         </state>
       </provider>
     </entry>
@@ -504,6 +570,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/EVENTOS DE TIEMPO 2/eventosDeTiempoUsandoBOM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/eventosDeTiempoTres.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="420">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+=======
+        <state relative-caret-position="367">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/EVENTOS DE TIEMPO/actividadDeCodigoUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+>>>>>>> cd71676a5a801f28666451bcfe13e09246041296
         </state>
       </provider>
     </entry>
