@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        #miReloj{
+            background-color: black;
+            font-size: xx-large;
+            font-family: "Courier New";
+            color: #04FF00;
+            width: 250px;
+            border: 2px solid #000;
+            padding: 5px 10px 5px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<p id="miReloj">
+    00:00:00
+</p>
+<button onclick="iniciarReloj()">Iniciar Reloj</button>
+<button onclick="detenerReloj()">Detener Reloj</button>
+</body>
+<script type="text/javascript">
+    var funcionReloj;
+    function iniciarReloj() {
+        var reloj = new Date();
+        var hora = reloj.getHours();
+        var minutos = reloj.getMinutes();
+        var segundos = reloj.getSeconds();
+        if(hora<10){
+            hora = "0"+hora;
+        }
+        if(minutos<10){
+            minutos = "0"+minutos;
+        }
+        if(segundos<10){
+            segundos = "0"+segundos;
+        }
+        funcionReloj = setTimeout(iniciarReloj,1000);
+        document.getElementById("miReloj").innerHTML = hora+":"+minutos+":"+segundos;
+    }
+
+    function detenerReloj(){
+        clearTimeout(funcionReloj);
+    }
+</script>
+</html>
