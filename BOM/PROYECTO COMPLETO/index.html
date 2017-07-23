@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PROYECTO COMPLETO</title>
+    <script type="text/javascript" src="js/conversor.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <div id="cabecera">
+        <b>Conversor de Temperatura</b>
+    </div>
+    <div id="contenedor">
+        <select id="opciones">
+            <option value="0">Elija una opcion</option>
+            <option value="1">Celcius a Kelvin</option>
+            <option value="2">Celsius a Fahrenheit</option>
+            <option value="3">Fahrenheit a Kelvin</option>
+            <option value="4">Kelvin a Celcius</option>
+            <option value="5">Kelvin a Fahrenheit</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <b>Grados  a Convertir</b>
+        <br>
+        <br>
+        <input type="text" id="numero1" />
+        <br>
+        <br>
+        <b>Resultado</b>
+        <br>
+        <br>
+        <input type="text" id="resultado" />
+        <br>
+        <br>
+        <button id="convertir" onclick="convertir()">Convertir</button>
+    </div>
+</body>
+</html>
