@@ -40,7 +40,7 @@ th, td {
 }
 
 body {
-  background:url(../img/fondo.jpg)no-repeat fixed center center;
+  background:url(../img/fond.jpg)no-repeat fixed center center;
   background-size: cover;
 }
 
@@ -84,4 +84,10 @@ h4{
   color: rgb(11, 11, 11);
   background-color: rgb(255, 255, 255);
   font-size: 25px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; /* Este es para Internet Explorer ¬¬, que de lo contrario no lo centrará (en los navegadores antiguos) */
 }
