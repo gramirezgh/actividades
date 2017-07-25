@@ -1,3 +1,25 @@
+var estudiantes = [
+    {"codigo":"020","nombre":"Andres Copa","nota":7,"asistencia":6,"genero":"M"},
+    {"codigo":"019","nombre":"Arturo Mendez","nota":7,"asistencia":6,"genero":"M"},
+    {"codigo":"018","nombre":"Liliana Carvajal","nota":9,"asistencia":8,"genero":"F"},
+    {"codigo":"017","nombre":"Jhoan Velasco","nota":6,"asistencia":5,"genero":"M"},
+    {"codigo":"016","nombre":"Minoslava Herrera","nota":6,"asistencia":5,"genero":"F"},
+    {"codigo":"015","nombre":"Dilan Borquez","nota":7,"asistencia":6,"genero":"M"},
+    {"codigo":"014","nombre":"Mauricio Gutierrez","nota":5,"asistencia":4,"genero":"M"},
+    {"codigo":"013","nombre":"Mario Macias","nota":4,"asistencia":3,"genero":"M"},
+    {"codigo":"012","nombre":"Jhenny Manrique","nota":4,"asistencia":3,"genero":"F"},
+    {"codigo":"011","nombre":"Irma Mujica","nota":7,"asistencia":6,"genero":"F"},
+    {"codigo":"010","nombre":"Armando Vega","nota":2,"asistencia":1,"genero":"M"},
+    {"codigo":"009","nombre":"Luis Luna","nota":10,"asistencia":10,"genero":"M"},
+    {"codigo":"008","nombre":"Pablo Coareti","nota":6,"asistencia":5,"genero":"M"},
+    {"codigo":"007","nombre":"Vicente Mendoza","nota":2,"asistencia":1,"genero":"M"},
+    {"codigo":"006","nombre":"Jose Maldonado","nota":7,"asistencia":6,"genero":"M"},
+    {"codigo":"005","nombre":"German Jauregui","nota":5,"asistencia":4,"genero":"M"},
+    {"codigo":"004","nombre":"Maria Velasco","nota":6,"asistencia":5,"genero":"M"},
+    {"codigo":"003","nombre":"Judith Callisaya","nota":7,"asistencia":6,"genero":"F"},
+    {"codigo":"002","nombre":"Marco Santander","nota":7,"asistencia":6,"genero":"M"},
+    {"codigo":"001","nombre":"Jhoel Martinez","nota":10,"asistencia":9,"genero":"M"}
+];
 
 function leerJSON(json){
   for (var i = 0; i < json.length; i++) {
@@ -15,6 +37,7 @@ function leerJSON(json){
     cell5.innerHTML = json[i].genero;
   }
 }
+
 
 function mostrarJSON(){
   leerJSON(estudiantes);

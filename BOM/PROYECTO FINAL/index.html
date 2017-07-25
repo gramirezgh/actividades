@@ -7,7 +7,8 @@
 
       <LINK REL="stylesheet" TYPE="text/css" HREF="css\estudiantes.css">
       <script type="text/javascript" src="js\JSONestudiantes.js"></script>
-    <script type="text/javascript" src="js\estudiantes.json"></script>
+      <script src="js/listaDinamica.js"></script>
+      <!--<script type="text/javascript" src="js\estudiantes.json"></script>-->
 
   <title>Trabajo Uno</title>
       <div id="panelUno"></div>
@@ -41,8 +42,29 @@
                    <input type="text"><br><br>
                    <label>Nota:</label>
                    <input type="number"><br><br>
+                   <button>Registrar Estudiante</button>
                </fieldset>
            </form>
+       </div>
+
+       <div>
+         <table align="center">
+            <thead>
+              <th>Codigo</th>
+              <th>Nombre</th>
+              <th>Nota</th>
+            </thead>
+             <tbody id="estudiantes-tabla">
+                <tr>
+                    <td>001</td>
+                    <td>Bolivia</td>
+                    <td>33</td>
+                </tr>
+             </tbody>
+         </table>
+           <center><button onclick="cargarEventos()">Mostrar Tabla</button></center>
+
+
        </div>
        <div id="panelSeis" align="center">
          <table id="tabla">
