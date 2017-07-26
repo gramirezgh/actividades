@@ -6,24 +6,21 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
       <LINK REL="stylesheet" TYPE="text/css" HREF="css\estudiantes.css">
-      <script type="text/javascript" src="js\JSONestudiantes.js"></script>
       <script src="js/listaDinamica.js"></script>
-      <!--<script type="text/javascript" src="js\estudiantes.json"></script>-->
 
-  <title>Trabajo Uno</title>
+  <title>Proyecto Final DOM-BOM</title>
       <div id="panelUno"></div>
       <div id="panelDos" align="center"><h4>Listado de Estudiantes</h4></div>
       <div id="panelTres"></div>
       <div id="panelCuatro"></div>
-      <div id="panelCinco" align="center" style="text-align:center">
-
-      <button onclick="mostrarJSON()">Mostrar Estudiantes</button>
-      <button onclick="notaPromedio()">Promedio de Notas</button>
-      <button onclick="notaMayor()">Mayor Nota</button>
-      <button onclick="notaMenor()">Menor Nota</button>
-      <button onclick="promedioAsistencia()">Promedio de Asistencia</button>
-      <button onclick="mostrarGenero()">Cantidad en Genero</button>
-    </div>
+      <div id="panelCinco"></div>
+       <!--Uso de Botones y sus diferentes acciones -->
+      <center>
+      <button id="nota-promedio">Promedio de Notas</button>
+      <button id="nota-mayor-menor">Mayor y Menor Nota</button>
+      <button id="promedio-asistencia">Promedio de Asistencia</button>
+      <button id="mostrar-genero">Cantidad en Genero</button>
+      </center>
 
 </head>
 <body>
@@ -31,51 +28,51 @@
        <p id="b"></p>
        <p id="c"></p>
        <p id="d"></p>
-
+       <!--Formulario para la adicion de un nuevo estudiante y sus datos-->
        <div id="formulario">
-           <form action="" method="post">
+           <form id="nuevo-estudiante">
                <fieldset>
                    <legend><h2>Formulario</h2></legend>
                    <label>Codigo:</label>
-                   <input type="text"><br><br>
-                   <labeñ>Nombre:</labeñ>
-                   <input type="text"><br><br>
+                   <input type="text" id="codigo"><br><br>
+                   <labeñ>Nombre(s):</labeñ>
+                   <input type="text" id="nombre"><br><br>
                    <label>Nota:</label>
-                   <input type="number"><br><br>
-                   <button>Registrar Estudiante</button>
+                   <input type="number" id="nota"><br><br>
+                   <label>Asistencia:</label>
+                   <input type="number" id="asistencia"><br><br>
+                   <label>Genero:</label>
+                   <select name="" id="genero">
+                       <option value="F">F</option>
+                       <option value="M">M</option>
+                   </select><br><br>
+                   <input type="submit" value="Añadir Estudiante">
                </fieldset>
            </form>
        </div>
-
+       <!--Generacion de la Tabla Estudiantes-->
        <div>
+           <center>
+           <br><br>
+           <h2>Tabla de Estudiantes</h2>
          <table align="center">
             <thead>
+              <th></th>
               <th>Codigo</th>
               <th>Nombre</th>
               <th>Nota</th>
+              <th>asistencia</th>
+              <th>genero</th>
             </thead>
              <tbody id="estudiantes-tabla">
-                <tr>
-                    <td>001</td>
-                    <td>Bolivia</td>
-                    <td>33</td>
-                </tr>
+
              </tbody>
          </table>
-           <center><button onclick="cargarEventos()">Mostrar Tabla</button></center>
-
-
+               <br><br>
+           <button id="mostrar-tabla">Refrescar Tabla </button>
+               <br><br>
+           <b>NOTA: La tabla viene cargada con 4 datos de prueba por defecto.</b>
+           </center>
        </div>
-       <div id="panelSeis" align="center">
-         <table id="tabla">
-           <tr>
-             <td>CODIGO</td>
-             <td>NOMBRES</td>
-             <td>NOTA</td>
-             <td>ASISTENCIA</td>
-             <td>GENERO</td>
-           </tr>
-         </table>
-    </div>
 </body>
 </html>
